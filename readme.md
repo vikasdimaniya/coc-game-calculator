@@ -26,13 +26,15 @@ You can use this module by simply adding it to your project and pass user tag as
 ```
 'use strict';
 
-import cocgc from './index.js';
+import cocgc from 'coc-game-calculator';
 import * as dotenv from 'dotenv'
 
 dotenv.config()
-
-let ans = await cocgc.totalFinishTime("#8GGCUQGR9");
-console.log(ans);
+async function a(){
+    let ans = await cocgc.totalFinishTime("#8GGCUQGR9");
+    console.log(ans);
+}
+a();
 ```
 
 ```
