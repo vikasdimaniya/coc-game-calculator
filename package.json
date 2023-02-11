@@ -1,0 +1,45 @@
+{
+  "name": "coc-game-calculator",
+  "version": "1.0.0",
+  "description": "This module calculates total time to reach max level in clash of clans.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "clash-of-clans",
+    "supercell",
+    "api-key",
+    "refresh",
+    "token",
+    "ip",
+    "token-refresh",
+    "coc-predictor",
+    "game-calculator",
+    "end",
+    "game",
+    "clash of clans",
+    "clash-of-clans",
+    "finish-game-calculator",
+    "finish-game"
+  ],
+  "author": {
+    "email":"vikaskumar6399@gmail.com",
+    "name": "vikas kumar",
+    "twitter": "https://twitter.com/vikas_dimaniya",
+    "github": "https://github.com/vikasdimaniya"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "clashofclans.js": "^3.0.2",
+    "coc-token-refresher": "^2.0.0",
+    "fastify": "^4.13.0",
+    "got": "^12.5.3"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikasdimaniya/coc-game-calculator"
+  }
+}
