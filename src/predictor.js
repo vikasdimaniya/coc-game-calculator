@@ -1,7 +1,7 @@
 'use strict';
 
 import cocApi from './index.js';
-import rawData from '../node_modules/clashofclans.js/dist/util/raw.json' assert {type: "json"};
+import rawData from './raw.json' assert {type: "json"};
 
 const allUnits = arrayToJSON(rawData.RAW_UNITS);
 
