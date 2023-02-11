@@ -1,6 +1,6 @@
 {
   "name": "coc-game-calculator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This module calculates total time to reach max level in clash of clans.",
   "main": "index.js",
   "scripts": {},
